@@ -1,0 +1,78 @@
+/* The Fashion Pet*/
+body{
+    background-color:#ADC5D9;
+    
+}
+
+h1{
+    color: #0487D9;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#ADC5D9;
+    height: 75px;
+    flex-basis: 500px;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+ div.flex-container-nav{
+    flex-direction: row;
+    align-items: center;
+ }
+
+
+a.link-home{
+    font-size: 17px;
+    font-weight:900px;
+    letter-spacing:2px;
+    margin-right: 20px;
+    color:#0487D9;
+    text-decoration: none;
+}
+a.link-home:hover{
+    color: #0487D9;
+    background-color: #F2F2F2;
+}
+
+
+a.link-about{
+    font-size: 17px;
+    font-weight:900px;
+    letter-spacing:2px;
+    margin-right: 20px;
+    color:#0487D9;
+    text-decoration: none;
+}
+a.link-about:hover{
+    color: #0487D9;
+    background-color: #F2F2F2;   
+}
+
+a.link-services{
+    font-size: 17px;
+    font-weight:900px;
+    letter-spacing:2px;
+    margin-right: 20px;
+    color:#0487D9;
+    text-decoration: none;
+}
+a.link-services:hover{
+    color: #0487D9;
+    background-color: #F2F2F2;   
+}
+
+a.link-register{
+    font-size: 17px;
+    font-weight:900px;
+    letter-spacing:2px;
+    margin-right: 20px;
+    color:#0487D9;
+    text-decoration: none;
+}
+a.link-register:hover{
+    color: #0487D9;
+    background-color: #F2F2F2;   
+}
