@@ -1,27 +1,30 @@
 /* The Fashion Pet*/
 body{
-    background-color:#ADC5D9;
-    
+    background-color:#b8cbda;
+    font-family: 'Proza Libre', sans-serif;   
 }
 
-h1{
-    color: #0487D9;
-}
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color:#ADC5D9;
+    background-color:#b8cbda;
     height: 75px;
     flex-basis: 500px;
-    font-family: 'Proza Libre', sans-serif;
+    margin: 20px 30px 30px 40px;    
 }
 
- div.flex-container-nav{
+
+h1{
+    color: #0487D9;    
+}
+
+
+div.flex-container-nav{
     flex-direction: row;
     align-items: center;
- }
+}
 
 
 a.link-home{
@@ -76,3 +79,43 @@ a.link-register:hover{
     color: #0487D9;
     background-color: #F2F2F2;   
 }
+
+
+h2{
+    color: #f2f2f2;
+    margin: 10px 20px 10px 200px;
+    letter-spacing: 1px;
+}
+
+.pet-count{
+    margin: 10px 10px 20px 180px;
+    letter-spacing: 1px;
+}
+
+.mb-3{
+    width:300px;
+    letter-spacing: 1px;
+
+}
+
+.age{
+    width: 100px;
+}
+
+.type{
+    width: 200px;
+}
+
+.gender{
+    width: 100px;
+}
+
+.btn{
+    margin: 4px 4px 4px 325px;
+}
+
+footer{
+    margin:3px 3px 20px 100px;
+}
+
+
