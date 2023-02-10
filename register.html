@@ -9,11 +9,11 @@
     
     <link rel="stylesheet" href="styles/register.css" class="register.css">
 
+    <link rel="stylesheet" href="styles/displayPets.css" class="displayPets.css">
 
 
-    <title>Fashion Pets</title>
 
-    
+    <title>Fashion Pets</title>  
 </head>
 
 <body class="body">
@@ -30,68 +30,92 @@
         </nav>
     </header>
 
-    <h2>Register</h2>
-    
-    <p class="pet-count">Pets in the salon = <span id="numberOfPets"></span></p>
+    <main>
+        <h2>Register a new pet</h2>
+        <p class="pet-count">Pets in the salon = <span id="numberOfPets"></span></p>
+        <div class="container-sm">
 
-    <div class="container-sm">
+            <div class="mb-3">
 
-        <div class="mb-3">
+                <label class="form-label">Pet's Name:</label>
+                <input type="text" class="form-control form-control-sm" id="txtName">
 
-            <label class="form-label">Owner's Name:</label>
-            <input type="text" class="form-control form-control-sm" id="txtName">
+                <div class="age">
+                    <label class="form-label">Age:</label>
+                    <input type="text" class="form-control form-control-sm" id="txtAge">
+                </div>
 
-            <label class="form-label">Owner's Phone number:</label>
-            <input type="text" class="form-control form-control-sm" id="txtName">
+                <div class="type">
+                    <label class="form-label">Type of Pet:</label>
+                    <input type="text" class="form-control form-control-sm" id="txtType">
+                </div>
 
-            <label class="form-label">Pet's Name:</label>
-            <input type="text" class="form-control form-control-sm" id="txtName">
+                <div class="gender">
+                    <label class="form-label" class="age-gender">Gender:</label>
+                    <input type="text" class="form-control form-control-sm" id="txtGender">
+                </div>
 
-            <div class="age">
-                <label class="form-label">Age:</label>
-                <input type="text" class="form-control form-control-sm" id="txtAge">
+                <label class="form-label">Breed:</label>
+                <input type="text" class="form-control form-control-sm" id="txtBreed">
+
+                <label class="form-label">Owner's Name:</label>
+                <input type="text" class="form-control form-control-sm" id="txtOwner">
+
+                <label class="form-label">Owner's Phone number:</label>
+                <input type="text" class="form-control form-control-sm" id="txtPhone">
+                
             </div>
 
-            <div class="type">
-                <label class="form-label">Type of Pet:</label>
-                <input type="text" class="form-control form-control-sm" id="txtType">
+            <div class="mb-3">
+                <label class="form-label">Select Service</label>
+
+                <select class="form-select form-select-sm" id="txtService">
+                    <option value="" disabled selected>--Select an option--</option>
+                    <option value="grooming">Grooming</option>
+                    <option value="nails">Nail trim</option>
+                    <option value="teeth">Teeth cleaning</option>
+                    <option value="vaccine">Vaccines</option>
+                </select>   
             </div>
-
-            <div class="gender">
-                <label class="form-label" class="age-gender">Gender:</label>
-                <input type="text" class="form-control form-control-sm" id="txtGender">
-            </div>
-
-            <label class="form-label">Breed:</label>
-            <input type="text" class="form-control form-control-sm" id="txtBreed">
-            
-        </div>
-
-        <div class="mb-3">
-            <label class="form-label">Select Service</label>
-
-            <select class="form-select form-select-sm" id="txtService">
-                <option value="" disabled selected>--Select an option--</option>
-                <option value="grooming">Grooming</option>
-                <option value="nails">Nail trim</option>
-                <option value="teeth">Teeth cleaning</option>
-                <option value="vaccine">Vaccines</option>
-            </select>
-              
+                
         </div>
         
-        
-    </div>
-    
-    <button class="btn btn-info">Register</button>
+        <button class="btn btn-info" onclick="register();">Submit</button>
 
-    <p ></p>
+        <div id="pets" class="pets">
+            <!---all pets go here--->
+            <table Class="table table-border table-striped">
+                <thead class="table-dark">
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Type</th>
+                    <th>Gender</th>
+                    <th>Breed</th>
+                    <th>Owner</th>
+                    <th>Phone</th>
+                    <th>Sevice</th>
+                    <th>Option</th>
+                       
+                </thead>
+                   
+                <tbody id="tablePets-body">
 
+                    <button>
+                        
+                    </button>
+                </tbody>
+
+            </table>
+        </div>
+
+    </main>
 
     <footer class="footer" id="footer">
 
     </footer>
 
+    <script src="scripts/displayFooter.js"></script>
+    <script src="scripts/displayPets.js"></script>
     <script src="scripts/register.js"></script>
     
 </body>
