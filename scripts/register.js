@@ -70,6 +70,29 @@ function updateInfo(){
     document.getElementById("numberOfPets").innerHTML=petSalon.pets.length;
 }
 
+function search(){
+    let text=document.getElementById("txtSearch").value;
+    console.log("search text is: " +text);
+
+    /**
+     * create a results array
+     * travel the pets array with a for loop
+     * get every pet from the array
+     * if the pet name is equal to the text, add the pet to the results array
+     * console log the results array
+     */
+
+    let results = [];
+    for (let i=0; i<petSalon.pets.length;i++){
+        const pet = petSalon.pets[i];
+        if(pet.name.toLowerCase().includes(text.toLowerCase())){
+            results.push(pet);
+        }
+
+    }
+    console.log(results);
+}
+
 function deletePet(name){
     // ask the user to confirm
    if( ! confirm("Are you sure you want to remove " +name+ " from the salon register?")){

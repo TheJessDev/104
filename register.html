@@ -82,9 +82,17 @@
         
         <button class="btn btn-info" onclick="register();">Submit</button>
 
-        <div id="pets" class="pets">
+        <div class="pets">
+            <!---removed id=pets-->
             <!---all pets go here--->
-            <table Class="table table-border table-striped">
+
+            <div class="ms-5 mt-3">
+                <input id="txtSearch" type="search" placeholder="Search">
+                <button class="btn btn-sm btn-primary" onclick="search()">Search</button>
+            </div>
+
+
+            <table Class="table table-border table-striped ms-5 mt-3 ">
                 <thead class="table-dark">
                     <th>Name</th>
                     <th>Age</th>
