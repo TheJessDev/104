@@ -1,7 +1,10 @@
 /* The Fashion Pet*/
 body{
     background-color:#f2f2f2;
-    font-family: 'Proza Libre', sans-serif;   
+    font-family: 'Mulish', sans-serif; 
+    color: #A077D9; 
+
+    
 }
 
 
@@ -12,12 +15,15 @@ nav{
     background-color:#f2f2f2;
     height: 75px;
     flex-basis: 500px;
-    margin: 20px 30px 30px 40px;    
+    margin: 20px 30px 20px 40px;    
 }
 
 
 h1{
-    color:#A077D9;    
+    color:#A077D9;  
+    letter-spacing: 2px; 
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
 }
 
 
@@ -26,9 +32,8 @@ div.flex-container-nav{
     align-items: center;
 }
 
-
 a.link-home{
-    font-size: 17px;
+    font-size: 25px;
     font-weight:900px;
     letter-spacing:2px;
     margin-right: 20px;
@@ -43,7 +48,7 @@ a.link-home:hover{
 
 
 a.link-about{
-    font-size: 17px;
+    font-size: 25px;
     font-weight:900px;
     letter-spacing:2px;
     margin-right: 20px;
@@ -56,7 +61,7 @@ a.link-about:hover{
 }
 
 a.link-services{
-    font-size: 17px;
+    font-size: 25px;
     font-weight:900px;
     letter-spacing:2px;
     margin-right: 20px;
@@ -69,7 +74,7 @@ a.link-services:hover{
 }
 
 a.link-register{
-    font-size: 17px;
+    font-size: 25px;
     font-weight:900px;
     letter-spacing:2px;
     margin-right: 20px;
@@ -84,24 +89,71 @@ a.link-register:hover{
 
 h2{
     color:#B189D9;
-    margin: 10px 20px 10px 120px;
+    margin: 10px 20px 5px 120px;
     letter-spacing: 2px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+
+
+.grid-container-1{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-container-2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:40px;
+    margin-right: 200px;
+    margin-left: 80px;
+    margin-top: 2px;
+}
+.container-sm{
+    font-size: 22px;  
+    margin-right: 75px;
+}
+
+#txtSearch{
+    border-radius: 5px;
+    
+}
+
+.remove-pet-btn{
+    margin-right: 5px;
+} 
+
+table{
+    margin-right: 75px;
+    align-content: center;
+    font-size: 16px;
+} 
+th{
+    text-align: center;
+    
+}
+td{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    color: #4A1B8C;
 }
 
 .pet-count{
-    margin: 10px 10px 20px 100px;
+    margin-left: 200px;
     letter-spacing: 1px;
     font-size: 20px;
+    text-align: left;
 }
 
 .container-sm{
-    margin-left:50px;
+    margin-left:60px;
 }
 
 .mb-3{
     width:300px;
-    letter-spacing: 1px;
-   
+    letter-spacing: 1px;  
+
 }
 
 .age{
@@ -117,15 +169,35 @@ h2{
 }
 
 .btn{
-    margin: 4px 4px 4px 275px;
+    margin: 4px 4px 4px 200px;
     letter-spacing: 2px;
     background-color:#A077D9;
     color:#f2f2f2;
+    font-size: 20px;
+    border: #4A1B8C;
+}
+.btn:hover{
+    color:#f2f2f2;
+    background-color: #4A1B8C;
 }
 
+td button{
+    border-radius: 5px;
+    border-color: #F23D3D;
+    color: #F23D3D;
+    width: 70px;
+    text-align: center;
+    padding: 2px;
+}
+td button:hover{
+    background-color: #4A1B8C;
+}
+
+
 footer{
-    margin:3px 3px 20px 50px;
-    font-size: 20px;
+    font-size: 25px;
+    text-align: center;
+    color:  #4A1B8C;
 }
 
 

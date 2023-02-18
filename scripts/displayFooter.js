@@ -16,6 +16,8 @@
     pets:[]    
 }
 
+
+
 function displayFooterInfo(){
     document.getElementById("footer").innerHTML= `<label>${petSalon.name} opens at ${petSalon.workHours.open} to ${petSalon.workHours.close}</label>`;
 }

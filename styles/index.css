@@ -1,23 +1,31 @@
 /* The Fashion Pet*/
 body{
-    background-color:#b8cbda;
-    font-family: 'Proza Libre', sans-serif;   
+    background-color:#f2f2f2;
+    font-family: 'Mulish', sans-serif; 
+    color: #A077D9; 
+    background-image: url('https://images.unsplash.com/photo-1537123547273-e59f4f437f1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
 }
-
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color:#b8cbda;
+    background-color:#f2f2f2;
     height: 75px;
     flex-basis: 500px;
-    margin: 20px 10px 10px 40px;    
+    margin: 20px 30px 20px 40px; 
+   
 }
 
-
 h1{
-    color: #0487D9;
+    color:#A077D9;  
+    letter-spacing: 2px; 
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    padding-left: 15px;
 }
 
  div.flex-container-nav{
@@ -26,96 +34,83 @@ h1{
  }
 
 
-a.link-home{
-    font-size: 17px;
+ a.link-home{
+    font-size: 25px;
     font-weight:900px;
     letter-spacing:2px;
     margin-right: 20px;
-    color:#0487D9;
+    color:#A077D9;
     text-decoration: none;
 }
 a.link-home:hover{
-    color: #0487D9;
-    background-color: #F2F2F2;
+    color:#f2f2f2;
+    background-color:#A077D9;
+
 }
 
 
 a.link-about{
-    font-size: 17px;
+    font-size: 25px;
     font-weight:900px;
     letter-spacing:2px;
     margin-right: 20px;
-    color:#0487D9;
+    color:#A077D9;
     text-decoration: none;
 }
 a.link-about:hover{
-    color: #0487D9;
-    background-color: #F2F2F2;   
+    color: #f2f2f2;
+    background-color:#A077D9;   
 }
 
 a.link-services{
-    font-size: 17px;
+    font-size: 25px;
     font-weight:900px;
     letter-spacing:2px;
     margin-right: 20px;
-    color:#0487D9;
+    color:#A077D9;
     text-decoration: none;
 }
 a.link-services:hover{
-    color: #0487D9;
-    background-color: #F2F2F2;   
+    color: #f2f2f2;
+    background-color:#A077D9;   
 }
 
 a.link-register{
-    font-size: 17px;
+    font-size: 25px;
     font-weight:900px;
     letter-spacing:2px;
     margin-right: 20px;
-    color:#0487D9;
+    color:#A077D9;
     text-decoration: none;
 }
 a.link-register:hover{
-    color: #0487D9;
-    background-color: #F2F2F2;   
+    color:#f2f2f2;
+    background-color:#A077D9;   
 }
 
+
 h2{
-    color: #f2f2f2;
-    margin: 60px 20px 10px 300px;
-    letter-spacing: 1px;
+    color:#f2f2f2;
+    margin: 50px 20px 15px 210px;
+    letter-spacing: 2px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
 }
 
 p{
     height: 300px;
-    width:600px;
+    width:400px;
     letter-spacing: 1px;
-    margin: 30px 5px 5px 100px;
+    margin: 45px 5px 170px 110px;  
+    font-size: 20px; 
 
-    
+}
+
+footer{
+    font-size: 25px;
+    text-align: center;
+   
 }
 
 
-/*.t
-    
-    float:left;
-    font-family: 'Proza Libre', sans-serif;
-    margin:20px;
-   text-align: center;
-    background-color: #f2f2f2;   
-}*/
 
-
-
-
-
-
-/* .welcome-text{
-    position:absolute;
-    margin: 200px 50px 50px 50px;
-} */
-
-/* #F20530 red
-#F21B54 pink
-#ADC5D9 light gray blue
-#0487D9 bright blue
-#A65D03 dark tan */

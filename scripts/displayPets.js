@@ -41,7 +41,7 @@ function displayPetTable(){
             <td>${pet.phoneNum}</td>
             <td>${pet.service}</td>
 
-            <td><button class="btn btn-sm btn-outline-danger" onclick="deletePet('${pet.name}')">Remove</button></td>
+            <td><button /*class="btn btn-sm btn-outline-danger" */class="remove-pet-btn" onclick="deletePet('${pet.name}')">Remove</button></td>
         </tr>`;
     }
     console.log(rows);

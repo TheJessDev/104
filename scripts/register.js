@@ -12,6 +12,8 @@ function Pet(n,a,t,g,b,s,o,p){
 
 }
 
+
+
 // global vars for html inputs
 let inputName = document.getElementById("txtName");
 let inputAge = document.getElementById("txtAge");
